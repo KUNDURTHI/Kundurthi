@@ -1,5 +1,9 @@
 # QA Candidate Test
 
+YOU CAN DOWNLOAD testspec.js into the project you have given and run it 
+
+It MUST PASS ALL THE TEST CASES
+
 In this test case i am checking evaluate button and clicking it:
 
 After clicking evaluate button i am checking history:

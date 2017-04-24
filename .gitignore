@@ -1,47 +1,39 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+uploads
+node_modules
+docs/*.png
+screenshot-*.png
+phantomjsdriver.log
 
-# Folder config file
-Desktop.ini
+# IntelliJ IDEA project files
+.idea
+*.iml
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# OS X Finder properties files
 .DS_Store
-.AppleDouble
-.LSOverride
 
-# Thumbnails
-._*
+# Enviroment files which may contain keys and secrets
+.env
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# Visual Studio Code config files
+.vscode
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Test artifacts
+xunit.xml
+coverage
+
+# Version artifact
+public/ver.txt
+
+# NPM garbage
+npm-debug.log
+
+public/members.html
+public/src
+
+# Super secret stuff
+github_npm
+.npmrc
+
+# ecs_depoy artifacts
+mailApp.json
+webApp.json
